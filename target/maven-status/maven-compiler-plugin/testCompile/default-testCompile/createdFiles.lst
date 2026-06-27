@@ -1,0 +1,3 @@
+com/omnixys/cache/core/ValkeyKeyDefinitionTest.class
+com/omnixys/cache/service/ValkeyRateLimitServiceTest.class
+com/omnixys/cache/service/DelayedJobRegistryTest.class
