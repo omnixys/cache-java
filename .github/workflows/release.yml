@@ -87,7 +87,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: 25
+          java-version: 26
           cache: maven
 
       - name: Setup Maven auth
@@ -97,7 +97,7 @@ jobs:
           <settings>
             <servers>
               <server>
-                <id>github</id>
+                <id>github-commons</id>
                 <username>${GITHUB_ACTOR}</username>
                 <password>${GITHUB_TOKEN}</password>
               </server>
@@ -105,7 +105,8 @@ jobs:
           </settings>
           EOF
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ACTOR: ${{ github.actor }}
+          GITHUB_TOKEN: ${{ secrets.OMNIXYS_TOKEN }}
 
       # 🚀 FINAL publish (uses version from pom.xml)
       - name: Build & Publish

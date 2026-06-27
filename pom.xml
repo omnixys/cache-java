@@ -28,10 +28,17 @@
 
     <distributionManagement>
         <repository>
-            <id>github</id>
+            <id>github-commons</id>
             <url>https://maven.pkg.github.com/omnixys/cache-java</url>
         </repository>
     </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>github-commons</id>
+            <url>https://maven.pkg.github.com/omnixys/commons-java</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
