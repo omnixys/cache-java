@@ -1,0 +1,83 @@
+# =========================
+# 🔹 Build Outputs
+# =========================
+target/
+build/
+out/
+
+# =========================
+# 🔹 Gradle
+# =========================
+.gradle/
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+
+# =========================
+# 🔹 Maven
+# =========================
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# 🔹 Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# 🔹 OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🔹 IDE (IntelliJ / JetBrains)
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# =========================
+# 🔹 VS Code
+# =========================
+.vscode/
+
+# =========================
+# 🔹 Environment / Secrets
+# =========================
+.env
+.env.*
+*.key
+*.pem
+
+# =========================
+# 🔹 Node (für semantic-release)
+# =========================
+node_modules/
+package-lock.json
+
+# =========================
+# 🔹 Test / Coverage
+# =========================
+coverage/
+*.exec
+
+# =========================
+# 🔹 Temp Files
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# 🔹 Generated files
+# =========================
+CHANGELOG.md
+
+# =========================
+# 🔹 Local config (optional)
+# =========================
+*.local
+
+settings.xml
