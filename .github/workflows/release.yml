@@ -96,11 +96,19 @@ jobs:
           cat <<EOF > ~/.m2/settings.xml
           <settings>
             <servers>
+
               <server>
                 <id>github-commons</id>
                 <username>${GITHUB_ACTOR}</username>
                 <password>${GITHUB_TOKEN}</password>
               </server>
+
+              <server>
+                <id>github-cache</id>
+                <username>${GITHUB_ACTOR}</username>
+                <password>${GITHUB_TOKEN}</password>
+              </server>
+              
             </servers>
           </settings>
           EOF
