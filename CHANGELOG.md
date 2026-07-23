@@ -3,6 +3,12 @@
 All notable changes in this project will be documented in this file.
 
 
+## [1.0.3](https://github.com/omnixys/cache-java/compare/v1.0.2...v1.0.3) (2026-07-23)
+
+### Deps
+
+* **Deps:** update commons deps version ([](https://github.com/omnixys/cache-java/commit/1b8c0ef05955d16e0c919fe915f6bbb290802ad1))
+
 ## [1.0.2](https://github.com/omnixys/cache-java/compare/v1.0.1...v1.0.2) (2026-07-23)
 
 ### Deps
