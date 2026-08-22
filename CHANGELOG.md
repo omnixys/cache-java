@@ -3,6 +3,16 @@
 All notable changes in this project will be documented in this file.
 
 
+## [1.0.4](https://github.com/omnixys/cache-java/compare/v1.0.3...v1.0.4) (2026-08-22)
+
+### Agent
+
+* **Agent:** add repository development instructions ([](https://github.com/omnixys/cache-java/commit/6ac2bd17278b9d6ffb11f80348760ce1cef5fc29))
+
+### Dir
+
+* **Dir:** remove target dir ([](https://github.com/omnixys/cache-java/commit/1be4ccc3e3c14e7ca1ef33fd5f4f77b3a3513ece))
+
 ## [1.0.3](https://github.com/omnixys/cache-java/compare/v1.0.2...v1.0.3) (2026-07-23)
 
 ### Deps
