@@ -3,6 +3,21 @@
 All notable changes in this project will be documented in this file.
 
 
+## [1.0.5](https://github.com/omnixys/cache-java/compare/v1.0.4...v1.0.5) (2026-09-03)
+
+### Ci
+
+* **Ci:** add update release rule for patch releases ([](https://github.com/omnixys/cache-java/commit/1f4e54e99e01a2de5873be25f9aa2f5fb5d8d5c9))
+* **Ci:** align CI structure with full workflow set, 3-job release, and pinned conventionalcommits ([](https://github.com/omnixys/cache-java/commit/0181a51e60e7830137bbb02e3fa1530290694161))
+
+### Other
+
+* **Other:** Merge pull request #1 from omnixys/migration/uuid-v7 ([](https://github.com/omnixys/cache-java/commit/c3321b10d81a025747231bfdf41143ec950ed2ba)), closes [#1](https://github.com/omnixys/cache-java/issues/1)
+
+### Runtime
+
+* **Runtime:** align spring boot and build toolchain to local standard ([](https://github.com/omnixys/cache-java/commit/8cb4dd09aa31325a9ca20f88251513b07a8dc46c))
+
 ## [1.0.4](https://github.com/omnixys/cache-java/compare/v1.0.3...v1.0.4) (2026-08-22)
 
 ### Agent
