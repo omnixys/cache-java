@@ -24,7 +24,7 @@
         <java.version>26</java.version>
         <maven.compiler.release>26</maven.compiler.release>
 
-        <omnixys.commons.version>1.0.4</omnixys.commons.version>
+        <omnixys.commons.version>1.0.6</omnixys.commons.version>
     </properties>
 
 
