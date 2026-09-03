@@ -8,7 +8,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.1.0</version>
+        <version>4.1.1</version>
         <relativePath/>
     </parent>
 
@@ -24,7 +24,7 @@
         <java.version>26</java.version>
         <maven.compiler.release>26</maven.compiler.release>
 
-        <omnixys.commons.version>1.0.4</omnixys.commons.version>
+        <omnixys.commons.version>1.0.6</omnixys.commons.version>
     </properties>
 
 
